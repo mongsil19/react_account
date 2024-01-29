@@ -1,0 +1,8 @@
+.accountList {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.accountList > div {
+    margin-right: 5px;
+}

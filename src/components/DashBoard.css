@@ -1,0 +1,23 @@
+.dbSummury {
+    background-color: gray;
+    cursor: pointer;
+    text-align: left;
+}
+
+.dbSummury:after {
+    content: '\02795';
+    float: right;
+    margin-left: 5px;  
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+.dbContent {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
